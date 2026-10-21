@@ -1,0 +1,18 @@
+/* Contraste dos controles sobre paredes e piso claros. */
+.scene-top {padding:8px 10px;background:rgba(9,25,34,.82);border-radius:6px;}
+.scene-bottom {padding:8px 10px;background:rgba(9,25,34,.85);border-radius:6px;color:#d9e6ee;}
+.panel-controls {padding-bottom:18px;margin-bottom:20px;border-bottom:1px solid #345063;}
+.panel-controls button {margin:4px 3px 4px 0;padding:9px 12px;}
+.panel-controls small {display:block;color:#adc2cf;line-height:1.5;margin-top:8px;}
+#start {background:#126ac5;color:white;} #stop {background:#eac34c;color:#172536;}
+#emergency {background:#ae2929;color:white;} #emergency[aria-pressed="true"] {outline:3px solid #ffc44f;}
+#panel-state {font-size:14px;min-height:36px;}
+#led {display:inline-block;width:16px;height:16px;border:2px solid #84929a;border-radius:50%;background:#45515a;margin-right:8px;}
+#led.on {background:#fff;box-shadow:0 0 14px #fff;}
+.measurement {display:grid;grid-template-columns:1fr 1fr;gap:24px;margin:24px 0;padding:24px;background:#10212e;border:1px solid #345063;border-radius:14px;line-height:1.5;}
+.measurement label {display:block;margin:12px 0;}
+.measurement select {display:block;width:100%;padding:10px;background:#1b3446;color:#fff;border:1px solid #57778b;border-radius:6px;}
+.measurement table {border-collapse:collapse;width:100%;font-size:13px;}
+.measurement td,.measurement th {border:1px solid #456276;padding:7px;text-align:center;}
+.measurement small {color:#aec4d3;} #axis-reading {color:#77f1c4;}
+@media(max-width:800px){.measurement{grid-template-columns:1fr;padding:14px;}}

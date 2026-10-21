@@ -1,0 +1,10 @@
+{
+  "name": "cmvi-demos",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {"build": "node build.mjs"},
+  "dependencies": {"@babylonjs/core": "9.26.1", "@babylonjs/loaders": "9.26.1"},
+  "devDependencies": {"vite": "8.3.0"},
+  "engines": {"node": ">=22.12.0"}
+}
