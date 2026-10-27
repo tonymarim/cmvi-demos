@@ -12,6 +12,8 @@ A demo N2 executa o modelo inteiramente no navegador, sem servidor de controle o
 
 Na planta N2, a roda e a pinça aplicam zoom gradual. Qualidade Alta usa a densidade da tela (até 2×), antisserrilhamento e sombras; Qualidade Econômica reduz o custo gráfico. A trajetória TCP não é desenhada automaticamente durante o movimento do robô. Após uma atualização, use Ctrl+F5 para recarregar os arquivos da demo.
 
+Bases, lâminas e montagem acompanham a ventosa, a garra ou o garfo nas transferências. O elevador apoia o produto na prateleira antes de retornar ao Home. Os trajetos automáticos são didáticos e coincidem com os contatos da geometria reconstruída; não representam trajetórias UR calibradas.
+
 Os sinais e movimentos são **simulados no navegador**. Não há conexão com Arduino/ESP32, aquisição real, comando de equipamento físico ou gravação em servidor. A exportação CSV salva somente a leitura simulada atual. Vibração visual ampliada e rotação ilustrativa; a frequência dominante não é uma medição de RPM. O monitor é didático e não emite diagnóstico industrial.
 
 ## Publicação
