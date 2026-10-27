@@ -10,6 +10,8 @@ Uma página inicial permite escolher entre três demonstrações interativas 3D:
 
 A demo N2 executa o modelo inteiramente no navegador, sem servidor de controle ou chamadas `/api`. Cada visitante tem sua própria sessão; recarregar reinicia o inventário. Rastreio CSV e relatório JSON são baixados no dispositivo. Não há conexão com CLPs ou robô real. Geometria, tempos e movimentos não constituem uma réplica física calibrada. O projeto local completo está em [gemeo-digital-planta-N2](https://github.com/tonymarim/gemeo-digital-planta-N2).
 
+Na planta N2, a roda e a pinça aplicam zoom gradual. Qualidade Alta usa a densidade da tela (até 2×), antisserrilhamento e sombras; Qualidade Econômica reduz o custo gráfico. A trajetória TCP não é desenhada automaticamente durante o movimento do robô. Após uma atualização, use Ctrl+F5 para recarregar os arquivos da demo.
+
 Os sinais e movimentos são **simulados no navegador**. Não há conexão com Arduino/ESP32, aquisição real, comando de equipamento físico ou gravação em servidor. A exportação CSV salva somente a leitura simulada atual. Vibração visual ampliada e rotação ilustrativa; a frequência dominante não é uma medição de RPM. O monitor é didático e não emite diagnóstico industrial.
 
 ## Publicação
