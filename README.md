@@ -43,3 +43,5 @@ O PNG foi decodificado automaticamente para confirmar esse destino. O QR Code co
 ## Origem
 
 Cópias adaptadas dos projetos didáticos locais `Aula_10/Estacao-de-Nivel` e `gemeo_digital_vibracaomotor`. As funções de geração/análise do sinal e os modelos GLB foram preservados. Os projetos de aquisição real permanecem separados.
+
+A N2 recebeu revisão visual pelas dez fotos reais de 28/10/2026: equipamento detalhado e laboratório com piso amadeirado, divisórias de vidro, janelas, TV, rack e mobiliário. Use Ambiente para a vista ampla e Sala visível/oculta para inspecionar a planta. As dimensões da sala são aproximações visuais; a simulação e os ensaios continuam locais ao navegador.
